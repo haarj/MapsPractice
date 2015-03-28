@@ -14,6 +14,9 @@
 		332F6B801AC4C9E300DAF1E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332F6B7F1AC4C9E300DAF1E3 /* Images.xcassets */; };
 		332F6B831AC4C9E300DAF1E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 332F6B811AC4C9E300DAF1E3 /* LaunchScreen.xib */; };
 		332F6B8F1AC4C9E300DAF1E3 /* MapsPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 332F6B8E1AC4C9E300DAF1E3 /* MapsPracticeTests.m */; };
+		332F6B9A1AC4CB8C00DAF1E3 /* BusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 332F6B991AC4CB8C00DAF1E3 /* BusStop.m */; };
+		332F6B9C1AC4CBCD00DAF1E3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 332F6B9B1AC4CBCD00DAF1E3 /* MapKit.framework */; };
+		332F6B9F1AC503C100DAF1E3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332F6B9E1AC503C100DAF1E3 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		332F6B881AC4C9E300DAF1E3 /* MapsPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapsPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		332F6B8D1AC4C9E300DAF1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		332F6B8E1AC4C9E300DAF1E3 /* MapsPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapsPracticeTests.m; sourceTree = "<group>"; };
+		332F6B981AC4CB8C00DAF1E3 /* BusStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStop.h; sourceTree = "<group>"; };
+		332F6B991AC4CB8C00DAF1E3 /* BusStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStop.m; sourceTree = "<group>"; };
+		332F6B9B1AC4CBCD00DAF1E3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		332F6B9D1AC503C100DAF1E3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		332F6B9E1AC503C100DAF1E3 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332F6B9C1AC4CBCD00DAF1E3 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 		332F6B661AC4C9E200DAF1E3 = {
 			isa = PBXGroup;
 			children = (
+				332F6B9B1AC4CBCD00DAF1E3 /* MapKit.framework */,
 				332F6B711AC4C9E200DAF1E3 /* MapsPractice */,
 				332F6B8B1AC4C9E300DAF1E3 /* MapsPracticeTests */,
 				332F6B701AC4C9E200DAF1E3 /* Products */,
@@ -85,7 +95,11 @@
 				332F6B771AC4C9E200DAF1E3 /* AppDelegate.m */,
 				332F6B791AC4C9E200DAF1E3 /* ViewController.h */,
 				332F6B7A1AC4C9E200DAF1E3 /* ViewController.m */,
+				332F6B981AC4CB8C00DAF1E3 /* BusStop.h */,
+				332F6B991AC4CB8C00DAF1E3 /* BusStop.m */,
 				332F6B7C1AC4C9E300DAF1E3 /* Main.storyboard */,
+				332F6B9D1AC503C100DAF1E3 /* MapViewController.h */,
+				332F6B9E1AC503C100DAF1E3 /* MapViewController.m */,
 				332F6B7F1AC4C9E300DAF1E3 /* Images.xcassets */,
 				332F6B811AC4C9E300DAF1E3 /* LaunchScreen.xib */,
 				332F6B721AC4C9E200DAF1E3 /* Supporting Files */,
@@ -219,7 +233,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332F6B9A1AC4CB8C00DAF1E3 /* BusStop.m in Sources */,
 				332F6B7B1AC4C9E200DAF1E3 /* ViewController.m in Sources */,
+				332F6B9F1AC503C100DAF1E3 /* MapViewController.m in Sources */,
 				332F6B781AC4C9E200DAF1E3 /* AppDelegate.m in Sources */,
 				332F6B751AC4C9E200DAF1E3 /* main.m in Sources */,
 			);
